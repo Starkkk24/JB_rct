@@ -1,10 +1,13 @@
 
-// import logo from '../static/img/logo.png';
 import PostSpace from '../components/PostSpace';
 import FeedPost from '../components/FeedPost'
-import "../static/css/feed.css"
 import SearchBox from '../components/SearchBox';
 import WidgetCard from '../components/WidgetCard';
+import "../static/css/Feed.css"
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
 
 function Feed(){
 return(

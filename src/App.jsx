@@ -1,5 +1,4 @@
 import './App.css'
-import Title from './components/title'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import First from './pages/First'
 import Second from './pages/Second'

@@ -1,4 +1,5 @@
-import '../static/css/feed.css'
+
+
 import hd from '../static/img/hd.png'
 import zgb from '../static/img/zgb.png'
 

@@ -1,8 +1,6 @@
-import '../static/css/feed.css'
 import stark from '../static/img/stark.png'
 import zgb from '../static/img/zgb.png'
 import JGi from '../static/img/JGi.png'
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 function WidgetCard(){
@@ -34,7 +32,7 @@ function WidgetCard(){
                 <div className="follow-info">
                     <h4>
                       Stark{" "}
-                      <i className="fas fa-check-circle" style={{ color: "#E2725B", fontSize: "12px"}}></i>
+                      <i className="fas fa-check-circle" style={{ color: "#807A5C", fontSize: "12px"}}></i>
                     </h4>
                     <p>@starkkk24</p>
                 </div>
