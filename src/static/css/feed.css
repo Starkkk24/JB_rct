@@ -333,7 +333,8 @@ time{
     display: block;
 }
 .show-more:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: inherit;
 }
 .more-icon {
     float: right;
