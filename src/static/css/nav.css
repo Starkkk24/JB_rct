@@ -4,7 +4,6 @@
     --sec_background: #111112;
     --scrollbar-track_background: linear-gradient(45deg, #111111, #333333 ,#222222);
     --scrollbar-thumb_background: linear-gradient(45deg,#E2725B, #38362E);
-    /* --scrollbar-thumb_background: linear-gradient(45deg,#DCD6C1,#807A5C, #38362E); */
     --border: 1px solid #666666;
     --text: white;
     --sec_text: #807A5C;
@@ -17,25 +16,13 @@
 }
 
 
-/* body{
-    background: var(--background);
-    font-family: "Merienda", cursive;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-} */
-
-
+/* Creating The BASE */
 body{
     background: linear-gradient(45deg, #333333,#111111,#111111, #111111, #333333);
-    /* background: linear-gradient(225deg, #111111, #333333 ,#222222, #111111); */
     color: whitesmoke;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
-
-
 .section_wrap{
     display: flex;
     flex-direction: row;
@@ -50,14 +37,7 @@ header {
     height: 100vh;
     z-index: 1000;
 }
-.content_space{
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    margin-top: 0rem;
-    margin-left: 150px;
-    color: white;
-}
+/* Scrollbar */
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -67,29 +47,25 @@ header {
 ::-webkit-scrollbar-thumb{
     background: var(--scrollbar-thumb_background);
     border-radius: 0.5rem;
-       /* box-shadow: 0 0 20px #ffffff; */
 }
 
-.wrap{
+
+
+
+/* NAV-BAR */
+header{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
 
-
-
-
-
-
-/* navigation for student space */
-.bar{
-    font-family: "Roboto Flex", sans-serif;
+/* Nav Up */
+.nav_up{
+    /* font-family: "Roboto Flex", sans-serif; */
     display: flex;
     flex-direction: column;
 }
-
-/* upper navigation */
-.nav_up{
+.bar{
     background-color: var(--bbackground);
     position: fixed;
     top: 0;
@@ -105,7 +81,6 @@ header {
     padding: 2rem 0;
     margin: 0;
     border-right: var(--border);
-    /* background: transparent; */
     box-sizing: border-box;
 }
     .nav_links ul{ 
@@ -121,20 +96,18 @@ header {
     }
     .nav_links a{    
         text-decoration: none;    
-        /* color: var(--text); */
-        color: white;
+        color: var(--text);
     }
     .nav_links ul li:hover{
     background-color: #111112;
     box-shadow: var(--box-shadow_);
     cursor: pointer;
-    color: white;
+    color: var(--text);
     border-radius: 1.5rem;
     }
     .nav_links ul li:hover > a {
-    color: white;
+    color: inherit;
 }
-
     .nav_logo{
         display: flex;
         justify-content: center;
@@ -157,7 +130,7 @@ header {
     display: flex;
     flex-direction: row; 
     gap: 0.5rem;
-    color: white; 
+    color: var(--text);
     padding: 1rem 1rem 1rem 0.8rem ; 
     width: 100%; 
     box-sizing: border-box;    
@@ -167,10 +140,10 @@ header {
     transition: 190ms;
     background-color: var(--sec_background);
     box-shadow: var(--box-shadow_);
-    color: white;
+    color: inherit;
 }
 .profile_btn_wrap:hover span {
-    color: white;
+    color: inherit;
 }
 .profile_btn_wrap:hover p {
     color: #888888;
@@ -178,8 +151,7 @@ header {
     .profile_btn_right{
         display: flex;
         flex-direction: column;
-        /* color: var(--text); */
-        color: white;
+        color: var(--text);
         font-size: small;
         justify-content: center;
     }

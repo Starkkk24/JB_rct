@@ -3,6 +3,8 @@
 import PostSpace from '../components/PostSpace';
 import FeedPost from '../components/FeedPost'
 import "../static/css/feed.css"
+import SearchBox from '../components/SearchBox';
+import WidgetCard from '../components/WidgetCard';
 
 function Feed(){
 return(
@@ -10,13 +12,23 @@ return(
 
 <div className="content_space">
     <div className="feed_page_wrap">
-    <PostSpace/>
-    <FeedPost/>
-    <FeedPost/>
-
-    </div>            
+        <div className="Post_space">
+            <PostSpace/>
+        </div>
+        <div className="feed_roll_space">
+            <FeedPost/>
+            <FeedPost/>
+            <FeedPost/>
+            <FeedPost/>
+            <FeedPost/>
+            <FeedPost/>
+        </div>
+    </div>
+    <div className='widget_space'>
+        <SearchBox/>
+        <WidgetCard/>
+    </div>        
 </div>
-
 </>
 )
 }

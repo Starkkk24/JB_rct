@@ -61,7 +61,7 @@
     --sec_background: #111112;
     /* --scrollbar-track_background: #111112; */
     --scrollbar-track_background: linear-gradient(45deg, #111111, #333333 ,#222222);
-    --scrollbar-thumb_background: linear-gradient(45deg,#E2725B, #38362E);
+    /* --scrollbar-thumb_background: linear-gradient(45deg,#E2725B, #38362E); */
     /* --scrollbar-thumb_background: linear-gradient(45deg,#DCD6C1,#807A5C, #38362E); */
     --border: 1px solid #666666;
     --sec_text: #E2725B;
@@ -140,9 +140,9 @@
     flex-direction: row;
     gap: 3rem;
     margin-top: 0rem;
-    margin-left: 0px;
     color: white;
 }
+
 .post_profile_logo{
     display: flex;
     justify-content: center;
@@ -152,7 +152,6 @@
     display: flex;
     width: 40px;
     height:40px;
-    /* margin-bottom: 1rem; */
 }
 .post_profile_logo img{
     border-radius: 50%;
@@ -179,20 +178,10 @@
 
 }
 
-
-
-
-/* .Post_area_wrap_right{
-    display: flex;
-    flex-direction: column;
-} */
-
-
     .Post_area_wrap_right textarea{
         border: none;
         background: transparent;
         width: 900px;
-        /* width: 590px; */
         padding: 10px;
         color: var(--text) ;
         vertical-align: top;
@@ -213,10 +202,7 @@
     border-radius: 0.5rem;
     /* box-shadow: 0 0 20px white; */
     }
-
-
-
-
+    
     .feed_roll_space{
         margin: 1.5rem;
         display: grid;
@@ -308,8 +294,11 @@
 
 
     article a{
-        text-decoration: none;
         color: var(--text);
+    }
+    article a:hover{
+        text-decoration: none;
+        color: inherit;
     }
 
 .article_1{
