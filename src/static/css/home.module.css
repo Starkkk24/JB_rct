@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=GaldeanoPirata+One&display=swap');
 
 
 
@@ -15,6 +16,22 @@ hr{
 
 time{
   font-size: smaller;
+}
+
+.date p{
+  margin-bottom: 0;
+  font-family: "Merienda", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.timeText p{
+  margin: 0;
+  padding: 0;
+  font-family: "Merienda", sans-serif;
+  /* font-size: 1.2rem; */
+  font-style: normal;
+  /* color: #807A5C; */
 }
 
 .display {
@@ -87,8 +104,14 @@ time{
   padding: 0.5rem;
 }
 
-.left-space h1,p{
+.left-space h1{
+  font-family: "Pirata One", system-ui;
+  /* font-family: "Libertinus Keyboard", system-ui; */
+  font-weight: 800;
+  font-style: normal;
   margin: 0;
+  color: #807A5C;
+    -webkit-text-stroke: 0.35px rgba(255, 255, 255, 0.75);
 }
 
 .day span{
@@ -105,6 +128,9 @@ time{
     0 4px 10px rgba(56, 54, 46, 0.6); 
 }
 .day{
+    font-family: "Merienda", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   transition: all 0.3s;
 }
 

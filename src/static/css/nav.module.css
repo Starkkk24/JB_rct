@@ -88,6 +88,7 @@ header{
         margin: 0;
     }
     .nav_links ul li{ 
+        font-size: medium;
         padding: 1.45rem 1.25rem ;
     }
     .nav_links a{    

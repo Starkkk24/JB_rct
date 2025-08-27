@@ -12,6 +12,7 @@ import cc from '../static/img/cc.png'
 import JGi from '../static/img/JGi.png' 
 import DirectFeed from '../components/DirectFeed'
 import HotShowcase from '../components/HotShowcase'
+import CurrentTime from '../components/CurrentTime'
 
 
 
@@ -28,8 +29,9 @@ function Home() {
             <section className={styles['section-1']}>
                 <div className={styles['head-space']}>
                     <div className={styles['left-space']}>
-                        <h1>Today Updates !</h1>
-                        <div><p>{formattedDate}</p></div>
+                        <h1>Today's Update !</h1>
+                        <div className={styles.date}><p>{formattedDate}</p></div>
+                        <div className={styles.timeText}><p><CurrentTime/></p></div>
                     </div>
                     <div className={styles.day}>
                         <span>{event}</span>

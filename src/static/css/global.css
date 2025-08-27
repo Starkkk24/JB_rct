@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=GaldeanoPirata+One&display=swap');
 
 /* Nav roots */
 :root{
@@ -53,6 +54,11 @@ html{
 
 
 body{
+      /* font-family: "Merienda", sans-serif;
+  font-weight: 400;
+  font-style: normal;font-family: "Merienda", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
     /* min-height: 100vh; */
     background: linear-gradient(45deg, #333333,#111111,#111111, #111111, #333333);
     color: whitesmoke;

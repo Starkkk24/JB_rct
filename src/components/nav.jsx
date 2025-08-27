@@ -11,11 +11,10 @@ function NavUp() {
       </div>
       <div className={styles.nav_links}>
         <ul>
-          <Link to="/f"><li>Students</li></Link>
+          <Link to="/f"><li>Student's Space</li></Link>
           <li><a href="#clubs">Clubs</a></li>
-          <li><a href="#latest">Latest</a></li>
           <li><a href="#acad">University</a></li>
-          <li><a href="#dep">Departments</a></li>
+          {/* <li><a href="#dep">Departments</a></li> */}
           <li><a href="#map">Map</a></li>
         </ul>
       </div>
