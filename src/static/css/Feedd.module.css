@@ -14,7 +14,9 @@
 --border: 1px solid #666666;
 /* --sec_text: #E2725B;
 --tert_text: #666666; */
---sec_text: #807A5C;
+/* --sec_text: #807A5C; */
+--sec_text: #1c3140;
+
 --tert_text: #666666;
 --text: white;
 }

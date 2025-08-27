@@ -10,9 +10,15 @@ html {
     --btn_text: black;
     --btn_text_2: black;
     --sec_background: #111112;
-    --scrollbar-track_background: linear-gradient(45deg, #111111, #333333, #222222);
+    --scrollbar-track_background: black;
+    /* --scrollbar-track_background: linear-gradient(45deg, #111111, #333333, #222222); */
+        --scrollbar-thumb_background: linear-gradient(45deg,#1a2f41,#008080, #00BFFF);
+
     --border: 1px solid #666666;
-    --sec_text: #807A5C;
+    /* --sec_text: #807A5C; */
+    /* --sec_text: #305f88fa; */
+    --sec_text: #008080;
+
     --tert_text: #666666;
     --text: white;
 }

@@ -1,4 +1,4 @@
-
+// import global from '../static/css/global.css'
 import PostSpace from '../components/PostSpace';
 import FeedPost from '../components/FeedPost'
 import SearchBox from '../components/SearchBox';
