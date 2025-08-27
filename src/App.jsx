@@ -7,6 +7,7 @@ import Nav from './components/nav'
 import Feed from './pages/Feed'
 import LogIn from './pages/login'
 import SignUp from './pages/signup'
+import Home from './pages/home'
 function App() {
 
   return (
@@ -16,9 +17,10 @@ function App() {
               <Route path="/l" element={<LogIn />} />
               <Route path="/su" element={<SignUp />} />
             <Route path="/" element={<Nav/>} >            
-              <Route path="/" element={<Feed/>} />
-              <Route path="/f" element={<First></First>} />
-              <Route path="/s" element={<Second />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/f" element={<Feed/>} />
+              <Route path="/t" element={<First></First>} />
+              <Route path="/tt" element={<Second />} />
           </Route>
         </Routes>
       </Router>

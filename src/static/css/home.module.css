@@ -1,0 +1,257 @@
+
+
+
+hr{
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-color: #444;
+    /* background-color: white; */
+}
+
+/* a :hover{
+  text-decoration: underline;
+} */
+
+time{
+  font-size: smaller;
+}
+
+.display {
+  scroll-margin-top: 15rem;
+}
+
+.page-wrap {
+  padding-top: 6rem;
+  padding-bottom: 15rem;
+  justify-content: center;
+  align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+/* 
+.nav-wrap.scrolled .section-1{
+  margin: none;
+} */
+
+
+/* section-1 */
+.section-1{
+  margin: 0 12rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1-wrap{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  
+
+}
+
+/* hot-feed-space */
+.hot-feed-content{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.hot-feed-space{
+  /* width: 38rem; */
+  padding: 1rem;
+  background-color: rgba(34, 34, 34, 0.35);
+  box-shadow: 0 0 10px #111111;
+  border-radius: 0.5rem;
+    box-shadow:
+    inset 1px 1px 2px rgba(255, 255, 255, 0.05), /* soft top-left highlight */
+    inset -1px -1px 2px rgba(0, 0, 0, 0.5),     /* soft bottom-right shadow */
+    0 4px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.head-space{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.left-space{
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.left-space h1,p{
+  margin: 0;
+}
+
+.day span{
+  font-weight: 600;
+  font-size: large;
+  padding: 1.5rem 2rem;
+  /* border: 2px solid white; */
+  border-radius: 0.5rem;
+  background: linear-gradient(45deg, #38362E, #807A5C, #DCD6C1);
+  transition: all 0.3s;
+    box-shadow:
+    inset 1px 1px 2px rgba(220, 214, 193, 0.05), /* soft top-left highlight */
+    inset -1px -1px 2px rgba(128, 122, 92, 0.5),     /* soft bottom-right shadow */
+    0 4px 10px rgba(56, 54, 46, 0.6); 
+}
+.day{
+  transition: all 0.3s;
+}
+
+.day :hover{
+  transition: all 0.3s;
+  background: linear-gradient(45deg, #DCD6C1,#807A5C, #38362E);
+
+
+}
+
+.hot-feed-space h2{
+  margin: 0 ;
+}
+/* hot-showcase */
+
+  .hot-showcase article{
+    display: grid;
+    /* grid-template-columns: repeat(1,1fr); */
+    grid-template-columns: repeat(auto-fit, 300px);
+    padding: 1rem;
+
+  }
+  .artticle-image{
+    height: 180px;
+    width: 300px;
+    border-radius: 1rem;
+  }
+  .article-update-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    padding-top: 0.5rem;
+  }
+    .article-update-details p{
+      margin: 0;
+    }
+    .article-update-details hr{
+      height: 4px;
+      width: 4px ;
+      border: 0;
+      margin: 0;
+      border-radius: 50%;
+      background-color: white;
+    }
+  .news-head a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .news-head a:hover{
+    text-decoration: underline;
+  }
+  .news-head{
+  padding-top:0.5rem;
+  }
+
+  .domain{
+    padding-top: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+  }
+  .domain img{
+    align-items: center;
+    height: 19px;
+    width: 19px;
+  }
+
+
+
+
+
+/* hot-directs */
+  .hot-directs{
+    padding: 0.5rem 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  .direct-head a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+ }
+
+  .direct-head a:hover{
+    text-decoration: underline;
+ }
+  
+  .direct-head{
+  padding-top:0.5rem;
+  }
+
+  .direct-feed time{
+    padding-top: 0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* other-feed-space */
+
+.other-section-wrap{
+  padding: 1rem;
+  margin: 0;
+  background-color: rgba(34, 34, 34, 0.35);
+  border-radius: 0.5rem;
+    box-shadow:
+    inset 1px 1px 2px rgba(255, 255, 255, 0.05), /* soft top-left highlight */
+    inset -1px -1px 2px rgba(0, 0, 0, 0.5),     /* soft bottom-right shadow */
+    0 4px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.other-feed-space{
+  margin: 0;
+    /* padding: 0.5rem 0.5rem; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
+
+
+.other-feed-space h2{
+  margin: 0;
+}
+
+.clubs-feed-space{
+    padding: 0.5rem 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.75rem;
+}
+
+
+
+/* Creating Responsiveness */
+

@@ -11,7 +11,7 @@ function NavUp() {
       </div>
       <div className={styles.nav_links}>
         <ul>
-          <li><Link to="/feed">Students</Link></li>
+          <Link to="/f"><li>Students</li></Link>
           <li><a href="#clubs">Clubs</a></li>
           <li><a href="#latest">Latest</a></li>
           <li><a href="#acad">University</a></li>
