@@ -13,6 +13,8 @@ import JGi from '../static/img/JGi.png'
 import DirectFeed from '../components/DirectFeed'
 import HotShowcase from '../components/HotShowcase'
 import CurrentTime from '../components/CurrentTime'
+import {Link } from 'react-router-dom';
+
 
 
 
@@ -92,7 +94,7 @@ function Home() {
                                  />
                                  <hr/>
 
-                                 <a href='/'>Go to Clubs Page</a>
+                                 <Link to='/'>Go to Clubs Page</Link>
                             </div>
                         </div>
 
@@ -127,7 +129,7 @@ function Home() {
                                   cmnt="Please book your trip now on WanderLust!" 
                                 />
                                 <hr/>
-                                 <a href='/f'>Students Page</a>
+                                 <Link to='/f'>Students Page</Link>
                                 
                             </div>
                         </div>
