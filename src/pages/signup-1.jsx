@@ -2,7 +2,7 @@ import { Outlet, Link } from 'react-router-dom';
 import styles from '../static/css/signup-1.module.css';
 // import styles from '../static/css/login-1.module.css';
 
-import logo from '../static/img/logo.png';
+import logooo from '../static/img/logooo.png';
 
 
 function SignUp1() {
@@ -11,7 +11,7 @@ function SignUp1() {
 
 
             <div className={styles.left_wrap}>
-                <img src={logo} />
+                <img src={logooo} />
             </div>
 
             <div className={styles.right_wrap}>

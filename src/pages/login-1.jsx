@@ -1,13 +1,14 @@
 import { Outlet, Link } from 'react-router-dom';
 import styles from '../static/css/login-1.module.css';
 import logo from '../static/img/logo.png';
+import logooo from '../static/img/logooo.png';
 
 
 function LogIn1() {
   return (
     <div className={styles['page-wrap']}>
         <div className={styles.left_wrap}>
-            <img src={logo} />
+            <img src={logooo} />
         </div>
         <div className={styles.right_wrap}>
           <div className={styles['login-card']}>

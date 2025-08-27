@@ -22,7 +22,7 @@
     flex-direction: row;
     align-items: center;
     padding-left: 15rem;
-    gap: 15rem;
+    gap: 7rem;
     height: 100vh;
 }
 
@@ -31,7 +31,7 @@
     margin: 0;
 }
 .left_wrap img{
-  width: 350px; /* or use max-width: 100% for responsiveness */
+  width: 500px; /* or use max-width: 100% for responsiveness */
   height: auto;
   display: block
 }
