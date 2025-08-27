@@ -15,11 +15,13 @@ import HotShowcase from '../components/HotShowcase'
 
 
 
-function Home() {
+const event = "Ganesh Chaturthi 🙏"
+const today = new Date();
+const options = { weekday: 'long', day: 'numeric', month: 'long' }; 
+const formattedDate = today.toLocaleDateString('en-US', options);
 
-    const today = new Date();
-    const options = { weekday: 'long', day: 'numeric', month: 'long' }; 
-    const formattedDate = today.toLocaleDateString('en-US', options);
+
+function Home() {
 
     return (
         <div className={styles['page-wrap']}>
@@ -30,7 +32,7 @@ function Home() {
                         <div><p>{formattedDate}</p></div>
                     </div>
                     <div className={styles.day}>
-                        <span>HOT EVENT</span>
+                        <span>{event}</span>
                     </div>
                 </div>
 
