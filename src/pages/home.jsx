@@ -87,6 +87,8 @@ function Home() {
                                    cmnt="Checkout the new Challenge on UI/UX !" 
                                  />
                                  <hr/>
+
+                                 <a href='/'>Go to Clubs Page</a>
                             </div>
                         </div>
 
@@ -121,6 +123,8 @@ function Home() {
                                   cmnt="Please book your trip now on WanderLust!" 
                                 />
                                 <hr/>
+                                 <a href='/f'>Students Page</a>
+                                
                             </div>
                         </div>
                     </div>
