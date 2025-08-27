@@ -3,6 +3,11 @@ import logo from '../static/img/logo.png';
 import stark from '../static/img/stark.png';
 import { Outlet, Link } from 'react-router-dom';
 
+const p_name = "Stark"
+const p_username = "starkkk24"
+
+
+
 function NavUp() {
   return (
     <nav className={styles.nav_up}>
@@ -33,8 +38,8 @@ function NavDown() {
             </div>
           </div>
           <div className={styles.profile_btn_right}>
-            <span>Stark</span>
-            <p>@starkkk24</p>
+            <span>{p_name}</span>
+            <p>@{p_username}</p>
           </div>
         </div>
       </Link>

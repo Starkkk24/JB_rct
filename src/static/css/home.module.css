@@ -90,6 +90,15 @@ time{
     0 4px 10px rgba(0, 0, 0, 0.6); 
 }
 
+.hot-feed-space h2{
+  font-family: "Pirata One", system-ui;
+  font-size: 2.2rem;
+  font-style: normal;
+  -webkit-text-stroke: 0.725px #807A5C;
+  margin: 0;
+
+}
+
 .head-space{
   display: flex;
   flex-direction: row;
@@ -106,12 +115,11 @@ time{
 
 .left-space h1{
   font-family: "Pirata One", system-ui;
-  /* font-family: "Libertinus Keyboard", system-ui; */
   font-weight: 800;
   font-style: normal;
   margin: 0;
   color: #807A5C;
-    -webkit-text-stroke: 0.35px rgba(255, 255, 255, 0.75);
+  -webkit-text-stroke: 0.35px rgba(255, 255, 255, 0.75);
 }
 
 .day span{
@@ -141,9 +149,6 @@ time{
 
 }
 
-.hot-feed-space h2{
-  margin: 0 ;
-}
 /* hot-showcase */
 
   .hot-showcase article{
@@ -267,7 +272,12 @@ time{
 
 
 .other-feed-space h2{
+  font-family: "Pirata One", system-ui;
+  font-size: 2.2rem;
+  font-style: normal;
   margin: 0;
+  -webkit-text-stroke: 0.725px #807A5C;
+
 }
 
 .clubs-feed-space{
