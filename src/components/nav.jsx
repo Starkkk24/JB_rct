@@ -30,7 +30,7 @@ function NavUp() {
 function NavDown() {
   return (
     <div className={styles.nav_down}>
-      <Link className={styles['Profile-link']} to="/l">
+      <Link className={styles['Profile-link']} to="/l1">
         <div className={styles.profile_btn_wrap}>
           <div className={styles.profile_btn_left}>
             <div className={styles.post_profile_logo}>
