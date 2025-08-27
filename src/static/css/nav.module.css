@@ -14,15 +14,11 @@
       0 4px 10px rgba(0, 0, 0, 0.4),
       0 0 8px rgba(255, 255, 255, 0.2);
 }
-
-
-/* Creating The BASE */
-body{
-    background: linear-gradient(45deg, #333333,#111111,#111111, #111111, #333333);
-    color: whitesmoke;
-    margin: 0;
+.navwrap{
+    margin-left: 150px;
     padding: 0;
 }
+
 .section_wrap{
     display: flex;
     flex-direction: row;
