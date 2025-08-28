@@ -55,7 +55,7 @@ function Feed() {
         <div className={styles.feed_roll_space}>
           <FeedPost art_img={hd} p_link={"https://www.instagram.com/zigbee_ju/"} p_img={zgb} p_name={"Zigbee Club"} username={"zb"} cmnt={'Zigbee Club has launched their Brand new Website...'} lnk={'https://linktr.ee/zigbee_ju'} when={2}/>
           <FeedPost art_img={inx} p_link={"https://www.instagram.com/techcouncil.scse/"} p_img={tc} p_name={"Tech Council"} username={"en"} cmnt={'Please give your names for the event! Inceptrix is on the edge!'} lnk={"https://inceptrix2025.xyz/"} when={3}/>
-          <FeedPost art_img={ns} p_img={JGi} p_name={"Jain"} username={"jain"} cmnt={'New Session 2025-2026 is commencing on 28 Aug 2025! Please be prepare to face the college drama again!Please give your names for the event! Inceptrix is on the edge!'} when={720}/>
+          <FeedPost art_img={ns} p_img={JGi} p_name={"Jain"} username={"jain_official"} cmnt={'New Session 2025-2026 is commencing on 28 Aug 2025! Please be prepare to face the college drama again!Please give your names for the event! Inceptrix is on the edge!'} when={720}/>
           <FeedPost />
           <FeedPost />
           <FeedPost />
