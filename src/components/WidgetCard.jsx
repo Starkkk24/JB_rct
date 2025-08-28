@@ -91,7 +91,7 @@ function WidgetCard() {
           <div className={styles['follow-info']}>
             <h4>
               Stark{" "}
-              <i className="fas fa-check-circle" style={{ color: "#807A5C", fontSize: "12px" }}></i>
+              <i className="fas fa-check-circle" style={{ color: "#008080", fontSize: "12px" }}></i>
             </h4>
             <p>@starkkk24</p>
           </div>
