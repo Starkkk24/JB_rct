@@ -13,6 +13,7 @@ import SignUp1 from './pages/signup-1'
 import ClubsPage from './pages/Clubs'
 import UniversityPg from './pages/UniversityPg'
 import MapPg from './pages/MapPg'
+import ProfilePg from './pages/ProfilePg'
 function App() {
 
   return (
@@ -24,6 +25,7 @@ function App() {
               <Route path="/signup" element={<SignUp1 />} />
               <Route path="/su" element={<SignUp />} />
             <Route path="/" element={<Nav/>} >            
+              <Route path="/profilepg" element={<ProfilePg />} />
               <Route path="/map" element={<MapPg/>} />
               <Route path="/university" element={<UniversityPg />} />
               <Route path="/clubs" element={<ClubsPage />} />
