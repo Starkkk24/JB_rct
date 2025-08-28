@@ -47,7 +47,7 @@ html {
     display: flex;
     justify-content: center;
 }
-.post_profile_logo a {
+.post_profile_logo img {
     text-decoration: none;
     display: flex;
     width: 2.5rem; /* 40px */

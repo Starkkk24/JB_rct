@@ -8,7 +8,7 @@ function LogIn1() {
   return (
     <div className={styles['page-wrap']}>
         <div className={styles.left_wrap}>
-            <img src={logooo} />
+            <Link to='/'><img src={logooo} /></Link>
         </div>
         <div className={styles.right_wrap}>
           <div className={styles['login-card']}>
@@ -61,7 +61,7 @@ function LogIn1() {
 
           <div className={styles['card-shoe']}>
         <span>
-          <p>New to The JB? <Link to="/su1">Signup!</Link></p>
+          <p>New to The JB? <Link to="/signup">Signup!</Link></p>
         </span>
           </div>
 

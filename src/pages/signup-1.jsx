@@ -11,7 +11,7 @@ function SignUp1() {
 
 
             <div className={styles.left_wrap}>
-                <img src={logooo} />
+            <Link to='/'><img src={logooo} /></Link>
             </div>
 
             <div className={styles.right_wrap}>
@@ -51,7 +51,7 @@ function SignUp1() {
                 </div>
             </div>
             <div className={styles['card-shoe']}>
-                <span><p>Already a JBian? <Link to="/l1">Login!</Link></p></span>
+                <span><p>Already a JBian? <Link to="/login">Login!</Link></p></span>
             </div> 
 
             </div>

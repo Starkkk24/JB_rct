@@ -10,19 +10,25 @@ import SignUp from './pages/signup'
 import Home from './pages/home'
 import LogIn1 from './pages/login-1'
 import SignUp1 from './pages/signup-1'
+import ClubsPage from './pages/Clubs'
+import UniversityPg from './pages/UniversityPg'
+import MapPg from './pages/MapPg'
 function App() {
 
   return (
     <>
       <Router>
         <Routes>
-              <Route path="/l1" element={<LogIn1 />} />
+              <Route path="/login" element={<LogIn1 />} />
               <Route path="/l" element={<LogIn />} />
-              <Route path="/su1" element={<SignUp1 />} />
+              <Route path="/signup" element={<SignUp1 />} />
               <Route path="/su" element={<SignUp />} />
             <Route path="/" element={<Nav/>} >            
+              <Route path="/map" element={<MapPg/>} />
+              <Route path="/university" element={<UniversityPg />} />
+              <Route path="/clubs" element={<ClubsPage />} />
               <Route path="/" element={<Home />} />
-              <Route path="/f" element={<Feed/>} />
+              <Route path="/feeds" element={<Feed/>} />
               <Route path="/t" element={<First></First>} />
               <Route path="/tt" element={<Second />} />
           </Route>

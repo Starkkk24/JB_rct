@@ -4,71 +4,35 @@ import hd from '../static/img/hd.png'
 import zgb from '../static/img/zgb.png'
 
 
-// function FeedPost(){
-//     return(
-//     <>
-//                 <div class="feed_post">
-//                 <div class="feed_post_up_wrap">
-//                     <div class="Post_area_wrap_left">
-//                         <div><img class="artticle-image" src={hd}></img></div>
-//                     </div>
-//                             <article>
-//                                 <div class="article_1">
-//                                     <div class="uploader">
-//                                         <div class="post_profile_logo">
-//                                             <a href="#"><img src={zgb} alt="pp"/></a>
-//                                         </div>
-//                                         <a href="#" id="uploader_profile_link"><span>Zigbee Club</span></a>
-//                                             <p>@zb</p>                                            
-//                                     </div>
-//                                     <div class="news-head"><a href="#">Zigbee Club has launched their Brand new Website...</a></div>
-//                                 </div>
-//                                 <div>
-//                                     <time>1 hour ago</time>
-//                                 </div>
-//                             </article>
-//                 </div>
-//                 <div class="post_interaction_bar">
-//                     <div class="interaction_items">
-//                         <div class="Post-items"><a href="#"><i class="fa-solid fa-thumbs-up"></i></a></div>
-//                         <div class="Post-items"><a href="#"><i class="fa-solid fa-comment"></i></a></div>
-//                             <div class="Post-items"><a href="#"><i class="fa-solid fa-share"></i></a></div>   
-//                     </div>
-//                 </div>                
-//             </div>  
-//     </>
-//     )
-// }
-// export default FeedPost
 
 
-
-// import styles from '../static/css/Feed.module.css';
-// import hd from '../static/img/hd.png';
-// import zgb from '../static/img/zgb.png';
-
-function FeedPost() {
+function FeedPost({art_img, p_link, p_img, p_name, username, cmnt, lnk, when}) {
   return (
     <div className={styles.feed_post}>
       <div className={styles.feed_post_up_wrap}>
         <div className={styles.Post_area_wrap_left}>
-          <div><img className={styles['artticle-image']} src={hd} alt="article" /></div>
+          <div><a href={lnk} target="_blank" rel="noopener noreferrer"><img className={styles['artticle-image']} src={art_img} alt="article" /></a></div>
         </div>
         <article>
           <div className={styles.article_1}>
+
+          <a href={p_link} target='_blank' rel='noopener noreferer'>
             <div className={styles.uploader}>
               <div className={styles.post_profile_logo}>
-                <a href="#"><img src={zgb} alt="pp" /></a>
+                  <img src={p_img} alt="pp" />
               </div>
-              <a href="#" id={styles.uploader_profile_link}><span>Zigbee Club</span></a>
-              <p>@zb</p>
+              <span>{p_name}</span>
+              <p>@{username}</p>
             </div>
+          </a>  
             <div className={styles['news-head']}>
-              <a href="#">Zigbee Club has launched their Brand new Website...</a>
+                {/* <a href={lnk} target="_blank" rel="noopener noreferrer"> */}
+                  {cmnt}
+                {/* </a> */}
             </div>
           </div>
           <div>
-            <time>1 hour ago</time>
+            <time>{when} hours ago</time>
           </div>
         </article>
       </div>
