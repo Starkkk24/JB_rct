@@ -21,13 +21,13 @@
     padding: 0;
 }
 
-.section_wrap{
+/* .section_wrap{
     display: flex;
     flex-direction: row;
     gap: 0rem;
     position: relative;
     align-items: center ;
-}
+} */
 header {
     position: fixed;
     top: 0;

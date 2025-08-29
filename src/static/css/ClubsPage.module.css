@@ -1,0 +1,48 @@
+.pagewrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tab_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background: #171717;
+}
+
+.content-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 20px 30px;
+  background: transparent;
+  border: none;
+  color: #ecf0f1;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn.active {
+  background: #101110;
+  width: 200px;
+  height: 4rem;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
