@@ -17,19 +17,19 @@ function ClubsPage() {
           className={`${styles.btn} ${activeTab === 1 ? styles.active : ""}`}
           onClick={() => setActiveTab(1)}
         >
-          DEPARTMENT CLUBS
+          <p>DEPARTMENT CLUBS</p>
         </div>
         <div
           className={`${styles.btn} ${activeTab === 2 ? styles.active : ""}`}
           onClick={() => setActiveTab(2)}
         >
-          GENERAL CLUBS
+          <p>GENERAL CLUBS</p>
         </div>
         <div
           className={`${styles.btn} ${activeTab === 3 ? styles.active : ""}`}
           onClick={() => setActiveTab(3)}
         >
-          OTHER CLUBS
+          <p>OTHER CLUBS</p>
         </div>
       </div>
 

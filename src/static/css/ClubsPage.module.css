@@ -21,8 +21,9 @@
 }
 
 .btn {
+  height: 4rem;
   flex: 1;
-  padding: 20px 30px;
+  padding: 10px 15px;
   background: transparent;
   border: none;
   color: #ecf0f1;
@@ -33,10 +34,21 @@
   transition: all 0.3s ease;
 }
 
-.btn.active {
+/* .btn.active {
   background: #101110;
   width: 200px;
   height: 4rem;
+} */
+
+.btn.active{
+    background-color: #101110;
+    border-radius: 0.5rem;
+    box-shadow:
+      inset 1px 1px 7px rgba(255, 255, 255, 0.2), 
+      inset -1px -1px 2px rgba(0, 0, 0, 0.4),      
+      0 4px 10px rgba(0, 0, 0, 0.4), 
+      0 0 8px rgba(255, 255, 255, 0);
+      border-radius: 0.35rem;
 }
 
 .content {
