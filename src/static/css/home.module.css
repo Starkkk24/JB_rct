@@ -199,10 +199,10 @@ time{
       background-color: white;
     }
   .news-head a{
-    /* text-decoration: none;
+    text-decoration: none;
     color: white;
     font-size: 1.25rem;
-    font-weight: 600; */
+    font-weight: 600;
   }
 
   .news-head1 a{
