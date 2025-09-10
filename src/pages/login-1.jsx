@@ -24,13 +24,13 @@ function LogIn1() {
 
         <div className={styles['entry-fields']}>
           <div className={styles['entry-field']} id="entry-field-1">
-            <label className={styles.login_name}>Username</label>
+            <label className={styles.login_name}>USN</label>
             <div>
               <input
                 className={styles['input-field']}
                 type="text"
                 id="username"
-                placeholder="@username"
+                placeholder="@USN"
                 required
               />
             </div>

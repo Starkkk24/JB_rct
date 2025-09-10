@@ -10,15 +10,17 @@ import SA from '../static/img/SA.png'
 import SR from '../static/img/SR.png' 
 import cc from '../static/img/cc.png' 
 import JGi from '../static/img/JGi.png' 
+import sih from '../static/img/sih.jpg' 
 import DirectFeed from '../components/DirectFeed'
 import HotShowcase from '../components/HotShowcase'
+import HotShowcase1 from '../components/HotShowcase1'
 import CurrentTime from '../components/CurrentTime'
 import {Link } from 'react-router-dom';
 
 
 
 
-const event = "NOW ⏳"
+const event = "Smart India Hackathon "
 const today = new Date();
 const options = { weekday: 'long', day: 'numeric', month: 'long' }; 
 const formattedDate = today.toLocaleDateString('en-US', options);
@@ -44,12 +46,17 @@ function Home() {
                     <div className={styles['hot-feed-space']} id="wrap1">
                         <h2>Jain Top Updates !</h2>
                         <hr />
+                        <div className={styles['hot-feed-content1']}>
+                            <HotShowcase1 siimg={sih} iimg={JGi} name={"Jain"} cmnt={"Be ready for the 24 hour SIH commencing on 12th and 13th september in FET."} cmnt1={"link for group: "} link={"https://t.me/+qH_7HNCscPphZWI1"} by_name={"Dr. Garima Sinha"} />
+                        </div>
+                        <hr />
+
                         <div className={styles['hot-feed-content']}>
                             <HotShowcase siimg={hd} iimg={zgb} name={"Zigbee Club"} cmnt={"Zigbee Club has launched their Brand new Website.."} by_name={"Thahari Lakshamiii"} />
                             <div className={styles['hot-directs']}>
                                 <DirectFeed iimg={stark} name="Stark" lnk={"https://escape-atlas.onrender.com/listing/68793533e7780928b29e87b0"} cmnt="Please check my comment about this place on WanderLust!..." />
                                 <DirectFeed iimg={en} name="Enigma Club" lnk={"/"} cmnt="Please give your names for the event! Inceptrix is on the edge!" />
-                                <DirectFeed iimg={JGi} name="Jain" lnk={"/"} cmnt="New Session 2025-2026 is commencing on 28 Aug 2025! Please be prepare to face the college drama again!" />
+                                <DirectFeed iimg={JGi} name="Jain" lnk={"/"} cmnt="New Session 2025-2026 is commencing on 28 Aug 2025! Please report on time and be prepared with your Registraion Documents!" />
                                 <DirectFeed iimg={JGi} name="Jain" lnk={"/"} cmnt="Tomorrow (25-7-2025 ) is the last date to apply for revaluation 1-8 semesters" />
                             </div>
                         </div>
